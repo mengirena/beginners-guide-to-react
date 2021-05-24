@@ -9,3 +9,8 @@
     - unpkg.com: We need to include react and react-dom in order to use them. React is used to create elements and react-dom is used to render the page.
     - `React.createElement()`: specify the element and include an object of the children message and class name to create the element through React.
     - `ReactDOM.render`: render element to the specified root element
+
+3. Create a user interface with React's JSX syntax
+    - bebel: It's used to translate HTML like syntax to react in JS because using HTML like syntax to construct a page is easier than using React create element and append several children.
+
+4. 
