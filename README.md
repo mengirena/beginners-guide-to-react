@@ -13,4 +13,6 @@
 3. Create a user interface with React's JSX syntax
     - bebel: It's used to translate HTML like syntax to react in JS because using HTML like syntax to construct a page is easier than using React create element and append several children.
 
-4. 
+4. Use JSX effectively with React
+    - `{}`: Anything that's provided within the curly braces will be a JS expression. The value will be the final result for JSX to render.
+    - `{...props}`: JSX can take in props at a time by using the spreading operator. If there's duplicate props, the later one will overwrite the former one.  
