@@ -16,3 +16,6 @@
 4. Use JSX effectively with React
     - `{}`: Anything that's provided within the curly braces will be a JS expression. The value will be the final result for JSX to render.
     - `{...props}`: JSX can take in props at a time by using the spreading operator. If there's duplicate props, the later one will overwrite the former one.  
+
+5. Render two elements side-by-side with React Fragments
+    - `<React.Fragment>`: It's impossible to render two elements side by side. It has to have a fragment element to wrap it. We can further use `<>` to wrap the code.  
