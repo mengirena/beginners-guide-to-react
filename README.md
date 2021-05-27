@@ -19,3 +19,6 @@
 
 5. Render two elements side-by-side with React Fragments
     - `<React.Fragment>`: It's impossible to render two elements side by side. It has to have a fragment element to wrap it. We can further use `<>` to wrap the code.  
+
+6. Create a simple reusable React component
+    - React component: It's a function but only when the first letter of its name is uppercase, React will recognize it as a custom component. 
